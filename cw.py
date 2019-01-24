@@ -1,7 +1,7 @@
 import itertools
 import argparse
 import time
-import math
+
 
 parser = argparse.ArgumentParser(description="Otomatic password creator")
 parser.add_argument("-f",'--way',required=True,help="Save files for this passwords")
